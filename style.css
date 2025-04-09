@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(47, 88%, 63%, 0.986);
+}
+.card{
+
+    max-width: 500px;
+    width: 340px;
+    margin: 50px auto;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 15px;
+    gap:15px;
+    background-color: white;
+    box-shadow: 10px 10px 4px;
+}
+.card img {
+    width: 100%;
+    padding: auto ;
+    border-radius: 15px;
+
+}
+.card h3{
+    font-size: 1.5em;
+    background-color:hsla(47, 88%, 63%, 0.986);
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-right: auto;
+    color: hsl(0, 0%, 7%);
+
+}
+.card .publish-date{
+    font-size: 1.1rem;
+    
+}
+.card h1{
+    font-size: 1.5em;
+    color: hsl(0, 0%, 7%);
+    
+}
+.card .discription{
+    font-size: 16px;
+}
+.card *{
+    padding-left: 10px;
+    color: hsl(0, 0%, 42%);
+}
+#thumbnail{
+    padding: 0px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and name */
+  font-weight: 600;
+  font-size: 15px;
+  color: hsl(219, 29%, 14%);
+}
+
+.author .icon {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
