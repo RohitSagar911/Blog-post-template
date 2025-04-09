@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsla(47, 88%, 63%, 0.986);
+    padding-top:auto;
 }
 .card{
 
